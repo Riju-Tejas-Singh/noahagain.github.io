@@ -1,0 +1,173 @@
+.top-alertt{
+  background-color: black;
+  color:white;
+  text-align: center;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.bigimg{
+
+  transform: rotate(20deg);
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 50px; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 3;
+}
+
+#blockdiv{
+  padding: 200px;
+  margin-left:0;
+  position: relative;
+}
+
+#blockdiv p{
+  font-size:1.5rem;
+  padding-top: 50px;
+}
+
+h1 {
+    font-family: 'Montserrat, sans-serif';
+      font-size: 4rem;
+      font-weight: 900;
+    }
+
+.container-fluid{
+  background-color: white;
+  margin :-10px 0;
+}
+
+.hover-white:hover{
+  color:white;
+}
+
+.nav-item{
+  padding: 18px;
+}
+
+ #footer{
+  padding: 7% 15%;
+  background-color: #F0F0F0;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  color:black;
+}
+
+.input-group{
+  width:50%;
+  padding-top: 50px;
+  z-index: -2;
+}
+
+.input-group-text{
+    border-radius: 100%;
+    background-color: purple;
+    color: white;
+}
+
+.footer-right{
+padding-right: 300px;
+color:black;
+padding-top: 100px;
+}
+
+.navbar-brand{
+  padding :0 18px;
+}
+
+@media (max-width :1050px) {
+
+#footer{
+text-align: center;
+}
+
+.footer-rightmore{
+  left:-150px;
+  position:relative;
+}
+
+/* .title-image{
+  position: static;
+  transform: rotate(0);
+} */
+
+}
+
+.footer-rightmore{
+  /* display:inline-block; */
+  position: absolute;
+  left:900px;
+  margin-top: 50px;
+}
+
+.footer-right a{
+  color:black;
+  text-decoration: none;
+}
+
+.custom-search {
+        position: relative;
+        width: 600px;
+      }
+      .custom-search-input {
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 100px;
+        padding: 10px 100px 10px 20px;
+        line-height: 1;
+        box-sizing: border-box;
+        outline: none;
+      }
+      .custom-search-botton {
+        position: absolute;
+        right: 3px;
+        top: 3px;
+        bottom: 3px;
+        border: 0;
+        background: blue;
+        color: #fff;
+        outline: none;
+        margin: 0;
+        padding: 0 10px;
+        border-radius: 100px;
+        z-index: 1;
+      }
+
+.hand-image{
+  position: fixed;
+  left:1100px;
+  width:500px;
+  z-index: 5;
+}
+
+.phnimage{
+  position:fixed;
+  left:1170px;
+  width:200px;
+  height:400px;
+  z-index: 4;
+}
+
+.card-body{
+box-shadow: 10px 10px 10px 10px grey;
+height:200px;
+margin: 10px;
+}
+
+#infocards{
+  margin-right:500px;
+  margin-left: 70px;
+
+}
+
+.card-img-top{
+  padding-right: 150px;
+}
